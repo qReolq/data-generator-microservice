@@ -14,6 +14,6 @@ public class Data {
     private Long sensorId;
     private LocalDateTime timestamp;
     private double measurement;
-    private MeasurementType MeasurementType;
+    private MeasurementType measurementType;
 
 }
