@@ -39,16 +39,3 @@ Example JSON
   ]
 }
 ```
-
-### Quick start
-1. Clone this repo into folder.
-
-```Bash
-git clone https://github.com/qReolq/data-generator-microservice.git
-cd data-generator-microservice
-```
-2. Start docker compose
-
-```Bash
-docker compose up
-```
