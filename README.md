@@ -7,9 +7,14 @@ Spring(Boot), Docker, Apache Kafka, CI/CD(Github actions)
 
 ### Usage
 
-To start an application you need to pass variables to .env file.
+You can find Docker compose file in [Data analyser service](https://github.com/qReolq/data-analyser-microservice) <code>docker/docker-compose.yaml</code>.
 
 Application is running on port 8081.
+
+### Environments
+To start an application you need to pass variables to .env file.
+
+* <code>KAFKA_BOOTSTRAP_SERVERS</code> - Bootstrap server in Kafka
 
 
 ### Endpoints
@@ -39,3 +44,4 @@ Example JSON
   ]
 }
 ```
+
